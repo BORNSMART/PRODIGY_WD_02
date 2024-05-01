@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   background-image: url(stop.jpg);
+   background-size: cover;
+}
+
+.stopwatch-container {
+    text-align: center;
+    border-radius: 50%;
+
+    margin-bottom: 5%;
+    /* background-color: #77f80d; */
+    
+}
+
+.stopwatch-display {
+    font-size: 5em;
+}
+
+.control-btn {
+    font-size: 2em;
+    margin: 5px;
+    padding: 10px;
+    border: 8%;
+    cursor: pointer;
+    box-shadow: inset;
+    background-color: rgb(247, 247, 247);
+    position: relative;
+    border-radius: 50%;
+}
+
+.lap-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.card{
+    text-align: center;
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+
+}
+.card h1{
+    background-color: lightseagreen;
+    border: 0%;
+    border-color: black;
+    
+}
+.container{
+    height: 50%;
+    width: 40%;
+    border: 2%;
+    border-color: #000;
+}
